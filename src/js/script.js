@@ -6,19 +6,21 @@ const addButton = document.getElementById('add-btn')
 const removeButton = document.getElementById('remove-btn');
 
 
-const books = [];
+let books = [];
+
+
 
 form.addEventListener('submit',function(e) {
   e.preventDefault();
   const book = {
     title :title.value,
-    author : author.value
+    author : author.value,
+   id: id++
   }
 books.push(book);
 createBook(book);
+clearFields();
 })
-
-console.log(books)
 
 function createBook(book) {
   const newBook = document.createElement('article');
@@ -27,8 +29,26 @@ function createBook(book) {
       <ul>
           <li>${book.title}</li>
           <li>${book.author}</li>
-          <li><button type="button" id="remove-btn">Remove</button></li>
+          <li><button type="button" id="${book.id}">Remove</button></li>
       </ul>
   </div>`;
-  booksList.appendChild(newBook)
+  booksList.appendChild(newBook);
+  }
+function Delete(){
+  removeButton.addEventListener('click',(e)=>{
+    books=books.filter((book=>id=e.target));
+  }) 
 }
+
+Delete();
+ 
+
+function clearFields(){
+  const title = document.getElementById('title-input').value='';
+  const author = document.getElementById('author-input').value='';
+}
+
+
+
+
+
