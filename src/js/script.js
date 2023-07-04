@@ -78,7 +78,6 @@ function loadBooks() {
   }
 }
 
-
 booksList.addEventListener('click', function(e) {
   if (e.target.classList.contains('remove-btn')) {
     const id = parseInt(e.target.getAttribute('data-id'));

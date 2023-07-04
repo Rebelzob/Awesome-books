@@ -4,7 +4,7 @@
 <div align="center">
   
 
-  <h3><b>Awesome Books Website README.md</b></h3>
+  <h3><b>Awesome Books Website</b></h3>
 
 </div>
 
@@ -76,10 +76,9 @@ To run the project, execute the following command:
 
 👤 **Asiimwe Mark**
 
-- GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
-- Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
-- LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
-- 
+- GitHub: [@Rebelzob](https://github.com/Rebelzob)
+- LinkedIn: [Karim-Barragan](https://www.linkedin.com/in/karim-barragan/)
+
 ## Contributions
 
 I would like to thank the following for their contributions to the success of this project
