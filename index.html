@@ -10,30 +10,28 @@
     <header></header>
     <main>
         <h1>Awesome Books</h1>
-        <section id="books-list">
-            <article id="listed-books">
-                <ul>
-                    <li>Title</li>
-                    <li>Author</li>
-                    <li><button type="button" id="remove-btn">Remove</button></li>
+        <section id="books-container">
+                <ul id="books">
+                    <!-- <li>
+                        <div>Title</div>
+                        <div>Author</div>
+                        <button type="button" class="remove-btn">Remove</button>
+                    </li> -->
                 </ul>
-            </article>
         </section>
-        <article>
+        <section class="form-container">
             <form id="form">
-                <div>
+                <p>
                     <input type="text" placeholder="Title" id="title-input">
-                </div>
-                <div>
+                </p>
+                <p>
                     <input type="text" placeholder="Author" id="author-input">
-                </div>
-                <div>
+                </p>
+                <p>
                     <button type="submit" id="add-btn">Add</button>
-                </div>
+                </p>
             </form>
-        
-        </article>
-        
+        </section>
     </main>
     <footer></footer>
     <script src="/src/js/script.js"></script>
