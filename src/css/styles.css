@@ -6,9 +6,37 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 10px auto;
+  border: 2px solid;
+  padding: 10px 10px 10px 20px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+.separator {
+  height: 18px;
+  border: 1px solid;
+}
+
 .book-list_container {
   text-align: center;
   padding: 2rem;
+  display: none;
 }
 
 #book-list {
@@ -18,6 +46,12 @@ body {
   padding: 0;
   text-align: left;
   font-weight: bolder;
+}
+
+h1 {
+  margin: 50px 0 40px 0;
+  font-weight: bolder;
+  font-size: 2.5rem;
 }
 
 tr {
@@ -40,12 +74,24 @@ tr:nth-child(even) {
 .form_container {
   text-align: center;
   width: 40%;
-  margin: 0 auto;
+  margin: auto;
+  display: none;
+}
+
+form {
+  margin-top: 90px;
+}
+
+.form_container h2,
+.contact-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-top: 50px;
 }
 
 input {
   width: 100%;
-  margin: 10px;
+  margin: 20px;
   height: 2.5rem;
   font: 900;
   border: 2px solid;
@@ -82,4 +128,42 @@ table button {
   width: 100px;
   border: 1px solid;
   margin: 20px auto;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+  display: none;
+}
+
+.contact-list {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-left: 100px;
+}
+
+.contact-paragraph {
+  margin: 100px 0 40px 0;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  left: 2.5%;
+  font-weight: bold;
+  text-align: center;
+  width: 95%;
+  margin: 10px auto;
+  border: 2px solid;
+  padding: 10px 10px 10px 20px;
+}
+
+.display {
+  display: block;
+}
+
+a:hover {
+  color: rgb(55, 55, 189);
 }
