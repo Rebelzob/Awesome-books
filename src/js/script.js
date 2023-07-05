@@ -2,6 +2,12 @@ const form = document.getElementById('form');
 const titleInput = document.getElementById('title-input');
 const authorInput = document.getElementById('author-input');
 const booksList = document.getElementById('books');
+const bookList = document.querySelector('.book-list_container');
+const addBook_ = document.querySelector('.form_container');
+const contact = document.querySelector('.contact');
+const btnList = document.getElementById('btn-list');
+const btnAdd = document.getElementById('btn-add');
+const btnContact = document.getElementById('btn-contact');
 
 let books = [];
 let id = 0;
@@ -78,3 +84,25 @@ booksList.addEventListener('click', function(e) {
     UI.removeBook(id);
   }
 });
+
+// Navigation functionality
+
+btnList.addEventListener('click',function(){
+  bookList.classList.add('display')
+  addBook_.classList.remove('display')
+  contact.classList.remove('display')
+})
+
+btnAdd.addEventListener('click',function(){
+  bookList.classList.remove('display')
+  addBook_.classList.add('display')
+  contact.classList.remove('display')
+})
+
+btnContact.addEventListener('click',function(){
+  bookList.classList.remove('display')
+  addBook_.classList.remove('display')
+  contact.classList.add('display')
+})
+
+

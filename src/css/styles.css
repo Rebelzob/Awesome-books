@@ -25,19 +25,12 @@ a {
   display: flex;
   gap: 2rem;
   list-style: none;
+  font-weight: bold;
 }
 
 .separator {
   height: 18px;
   border: 1px solid;
-}
-
-.book-list-show {
-  display: flex;
-}
-
-.book-list-hide {
-  display: none;
 }
 
 .book-list_container {
@@ -46,7 +39,6 @@ a {
   display: none;
 }
 
-
 #book-list {
   border: 2px solid black;
   margin: 0 auto;
@@ -54,6 +46,12 @@ a {
   padding: 0;
   text-align: left;
   font-weight: bolder;
+}
+
+h1 {
+  margin: 50px 0 40px 0;
+  font-weight: bolder;
+  font-size: 2.5rem;
 }
 
 tr {
@@ -77,11 +75,23 @@ tr:nth-child(even) {
   text-align: center;
   width: 40%;
   margin: auto;
+  display: none;
+}
+
+form {
+  margin-top: 90px;
+}
+
+.form_container h2,
+.contact-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-top: 50px;
 }
 
 input {
   width: 100%;
-  margin: 10px;
+  margin: 20px;
   height: 2.5rem;
   font: 900;
   border: 2px solid;
@@ -123,10 +133,19 @@ table button {
 .contact {
   width: 50%;
   margin: auto;
+  display: none;
 }
 
 .contact-list {
-  list-style: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-left: 100px;
+}
+
+.contact-paragraph {
+  margin: 100px 0 40px 0;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 footer {
@@ -139,4 +158,8 @@ footer {
   margin: 10px auto;
   border: 2px solid;
   padding: 10px 10px 10px 20px;
+}
+
+.display {
+  display: block;
 }
