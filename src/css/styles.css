@@ -65,6 +65,7 @@ form button {
   border: 3px solid;
   font-weight: bolder;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 table button {
@@ -74,6 +75,7 @@ table button {
   padding: 8px 15px;
   cursor: pointer;
   font-weight: bolder;
+  border-radius: 3px;
 }
 
 .divider {
