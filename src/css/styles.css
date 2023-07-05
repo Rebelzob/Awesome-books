@@ -1,5 +1,85 @@
-* {
+*,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.book-list_container {
+  text-align: center;
+  padding: 2rem;
+}
+
+#book-list {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 60%;
+  padding: 0;
+  text-align: left;
+  font-weight: bolder;
+}
+
+tr {
+  border: none;
+  height: 2rem;
+}
+
+td {
+  padding-top: 6px;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+.form_container {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin: 10px;
+  height: 2.5rem;
+  font: 900;
+  border: 2px solid;
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+form button {
+  float: right;
+  padding: 6px 20px;
+  border: 3px solid;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+table button {
+  float: right;
+  margin-right: 15px;
+  border: 3px solid;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+.divider {
+  width: 100px;
+  border: 1px solid;
+  margin: 20px auto;
 }
