@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav class="navbar">
+            <h2 class="nav-title">Awesome Books</h2>
+            <ul class="nav-list">
+                <li><a type="button" id="btn-list">List</a></li>
+                <div class="separator"></div>
+                <li><a type="button" id="btn-add">Add new</a></li>
+                <div class="separator"></div>
+                <li><a type="button" id="btn-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="book-list_container">
         <h1>All awesome books</h1>
@@ -31,8 +42,21 @@
             </div>
         </form>
         </section>
+        <section class="contact">
+            <h2 class="contact-title">Contact Information</h2>
+            <p class="contact-paragraph">Do you have any questions or you just want to say "Hello" <br>
+            You can reach out to us!
+            </p>
+            <ul class="contact-list">
+                <li>Our e-mail: mail@mail.com</li>
+                <li>Our phone number: 0447254243</li>
+                <li>Our address: Streethome 22, 94524, City, Country</li>
+            </ul>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Copyright&copy; Awesome Books 2023</p>
+    </footer>
     <script src="/src/js/script.js"></script>
 </body>
 </html>
