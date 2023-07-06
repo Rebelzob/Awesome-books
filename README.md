@@ -74,20 +74,22 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Asiimwe Mark**
+👤 **Karim Barragan**
 
 - GitHub: [@Rebelzob](https://github.com/Rebelzob)
 - LinkedIn: [Karim-Barragan](https://www.linkedin.com/in/karim-barragan/)
+
+👤 **Asiimwe Mark**
+- GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
+- Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
+- LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
 
 ## Contributions
 
 I would like to thank the following for their contributions to the success of this project
 
-👤 **As1imwe-Mark**
-- GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
-- Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
-- LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
-
+Asiimwe Mark
+Karim Barragan
 
 ## ⭐️ Show your support <a name="support"></a>
  
